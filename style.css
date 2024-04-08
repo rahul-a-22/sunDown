@@ -11,7 +11,7 @@ body, html{
 #main{
     position: relative;
     z-index: 10;
-    top: -100%
+    top: -105%
 }
 #page1{
     min-height: 100vh;
@@ -443,6 +443,9 @@ nav #menu{
     text-align: right;
 }
 @media (max-width:600px) {
+    #main{
+        top: -110%;
+    }
     #page1{
         padding: 0 5vw;
     }
